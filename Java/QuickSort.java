@@ -22,7 +22,7 @@ public class Main{
 		//производим быструю сортировку массива
 		//с помощью функции, которая возвращает
 		//остортированный массив
-		numbers = quickSort(numbers, 0, numberN);
+		numbers = quickSort(numbers, 0, numberN-1);
 		
 		//выводим остортированный массив
 		for(int i=0; i<numberN; i++)
