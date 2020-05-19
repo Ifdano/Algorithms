@@ -50,7 +50,7 @@ int main(){
 	for(int i=0; i<numberN; i++)
 		cin >> arrayA[i];
 		
-	quickSort(arrayA, 0, numberN);
+	quickSort(arrayA, 0, numberN-1);
 	
 	for(int i=0; i<numberN; i++)
 		cout << arrayA[i] << " ";
