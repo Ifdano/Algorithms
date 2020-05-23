@@ -5,11 +5,9 @@
 
 using namespace std;
 
-int getBinary(int);
-
 int main(){
 	ios_base::sync_with_stdio(0);
-    cin.tie(0);
+        cin.tie(0);
 	
 	//простые числа до N
 	int numberN;
@@ -50,4 +48,3 @@ int main(){
 	
 	return 0;
 }
-
